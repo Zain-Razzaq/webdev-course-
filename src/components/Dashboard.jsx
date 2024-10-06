@@ -1,5 +1,7 @@
+import BrowserUsageCard from "./BrowserUsageCard";
 import LatestProjectsTable from "./LatestProjectsTable";
 import MonthlyMovementCard from "./MonthlyMovementCard";
+import MonthlySalesCard from "./MonthlySalesCard";
 import StatCard from "./StatCard";
 
 const Dashboard = () => {
@@ -38,6 +40,10 @@ const Dashboard = () => {
       <div className="row">
         <MonthlyMovementCard />
         <LatestProjectsTable />
+      </div>
+      <div className="row">
+              <BrowserUsageCard />
+              <MonthlySalesCard />
       </div>
     </div>
   );
