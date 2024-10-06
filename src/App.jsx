@@ -3,6 +3,29 @@ import { useState } from "react";
 import Sidebar from "./components/Sidebar";
 import Navbar from "./components/Navbar";
 import Dashboard from "./components/Dashboard";
+import {
+  Chart as ChartJS,
+  CategoryScale,
+  LinearScale,
+  PointElement,
+  LineElement,
+  BarElement,
+  ArcElement,
+  Title,
+  Tooltip,
+  Legend,
+} from "chart.js";
+ChartJS.register(
+  CategoryScale,
+  LinearScale,
+  PointElement,
+  LineElement,
+  BarElement,
+  ArcElement,
+  Title,
+  Tooltip,
+  Legend
+);
 
 import "./assets/css/app.css";
 
