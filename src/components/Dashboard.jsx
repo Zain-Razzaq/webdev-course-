@@ -1,3 +1,4 @@
+import LatestProjectsTable from "./LatestProjectsTable";
 import MonthlyMovementCard from "./MonthlyMovementCard";
 import StatCard from "./StatCard";
 
@@ -33,12 +34,11 @@ const Dashboard = () => {
           icon="shopping-cart"
           statColor="text-danger"
         />
-          </div>
-          <div>
-              <div>
-                  <MonthlyMovementCard/>
-              </div>
-          </div>
+      </div>
+      <div className="row">
+        <MonthlyMovementCard />
+        <LatestProjectsTable />
+      </div>
     </div>
   );
 };
