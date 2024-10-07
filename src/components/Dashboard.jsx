@@ -2,6 +2,7 @@ import BrowserUsageCard from "./BrowserUsageCard";
 import LatestProjectsTable from "./LatestProjectsTable";
 import MonthlyMovementCard from "./MonthlyMovementCard";
 import MonthlySalesCard from "./MonthlySalesCard";
+import StartDayComponent from "./StartDayComponent";
 import StatCard from "./StatCard";
 
 const Dashboard = () => {
@@ -42,8 +43,9 @@ const Dashboard = () => {
         <LatestProjectsTable />
       </div>
       <div className="row">
-              <BrowserUsageCard />
-              <MonthlySalesCard />
+        <BrowserUsageCard />
+        <MonthlySalesCard />
+        <StartDayComponent />
       </div>
     </div>
   );

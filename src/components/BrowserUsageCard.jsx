@@ -7,7 +7,7 @@ const BrowserUsageCard = () => {
       {
         data: [4306, 3801, 1689],
         backgroundColor: ["#007bff", "#ffc107", "#dc3545"],
-        borderWidth: 5,
+        borderWidth: 10,
       },
     ],
   };

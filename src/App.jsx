@@ -28,6 +28,8 @@ ChartJS.register(
 );
 
 import "./assets/css/app.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 const App = () => {
   const [isSidebarVisible, setSidebarVisible] = useState(true);
@@ -43,6 +45,7 @@ const App = () => {
         <div className={`main ${isSidebarVisible ? "" : "main-expanded"}`}>
           <Navbar toggleSidebar={toggleSidebar} />
           <Dashboard />
+          
         </div>
       </div>
     </div>
