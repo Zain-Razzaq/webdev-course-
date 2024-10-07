@@ -28,6 +28,7 @@ ChartJS.register(
 );
 
 import "./assets/css/app.css";
+import "./App.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 

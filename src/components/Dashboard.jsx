@@ -1,9 +1,11 @@
 import BrowserUsageCard from "./BrowserUsageCard";
+import CoffeeMenuItem from "./CoffeeMenuItem";
 import LatestProjectsTable from "./LatestProjectsTable";
 import MonthlyMovementCard from "./MonthlyMovementCard";
 import MonthlySalesCard from "./MonthlySalesCard";
 import StartDayComponent from "./StartDayComponent";
 import StatCard from "./StatCard";
+import VideoComponent from "./VideoComponent";
 
 const Dashboard = () => {
   return (
@@ -46,6 +48,31 @@ const Dashboard = () => {
         <BrowserUsageCard />
         <MonthlySalesCard />
         <StartDayComponent />
+      </div>
+      <div className="row">
+        <VideoComponent />
+      </div>
+      <div className="row">
+        <CoffeeMenuItem
+          name="Cappuccino"
+          price="23"
+          description="Usage of the Internet is becoming more common due to rapid advance."
+        />
+        <CoffeeMenuItem
+          name="Cappuccino"
+          price="23"
+          description="Usage of the Internet is becoming more common due to rapid advance."
+        />
+        <CoffeeMenuItem
+          name="Cappuccino"
+          price="23"
+          description="Usage of the Internet is becoming more common due to rapid advance."
+        />
+        <CoffeeMenuItem
+          name="Cappuccino"
+          price="23"
+          description="Usage of the Internet is becoming more common due to rapid advance."
+        />
       </div>
     </div>
   );
